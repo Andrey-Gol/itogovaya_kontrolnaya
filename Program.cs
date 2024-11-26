@@ -1,4 +1,4 @@
-﻿string [] array = {"await", "bb", "ccc"};
+﻿string [] array = {"Hello", "2", "world", ":-)"};
 if (array.Length == 0)
 {
     array = Console.ReadLine()!.Split(" ");
@@ -12,6 +12,6 @@ for (int i = 0; i < array.Length; i++)
     }
     else
     {
-        new_array[i] = ""
+        new_array[i] = "";
     }
 }
