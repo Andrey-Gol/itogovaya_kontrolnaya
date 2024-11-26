@@ -10,4 +10,8 @@ for (int i = 0; i < array.Length; i++)
     {
         Console.Write("{0} ", new_array[i]);
     }
+    else
+    {
+        new_array[i] = ""
+    }
 }
